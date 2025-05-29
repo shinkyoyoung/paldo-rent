@@ -2,7 +2,7 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>PALDO장기렌트</title>
   <link rel="stylesheet" href="assets/css/main.css" />
   <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
@@ -29,7 +29,7 @@
           <header class="major">
             <h2>상담 신청</h2>
           </header>
-          <form method="POST" action="https://formspree.io/f/2747515230341823585">
+          <form id="form" method="POST" action="https://formspree.io/f/2747515230341823585">
             <div class="fields">
               <div class="field">
                 <label for="name">이름</label>
@@ -64,13 +64,11 @@
           <p>010-9495-5482</p>
         </section>
 
-        <!-- 이미지 추가 영역 -->
         <section>
           <header class="major">
             <h2>차량 이미지</h2>
           </header>
           <p>여기에 차량 이미지를 추가하세요. 아래 코드를 참고하세요.</p>
-          <!-- 예시 이미지 -->
           <img src="images/sample-car.jpg" alt="샘플 차량 이미지" style="max-width:100%; height:auto;" />
         </section>
 
@@ -85,10 +83,10 @@
     </footer>
   </div>
 
-  <script src="assets/js/jquery.min.js"></script>
-  <script src="assets/js/browser.min.js"></script>
-  <script src="assets/js/breakpoints.min.js"></script>
-  <script src="assets/js/util.js"></script>
+  <!-- jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- main.js -->
   <script src="assets/js/main.js"></script>
 </body>
 </html>

@@ -1,1 +1,4 @@
-// Main JS functionality placeholder
+// main.js
+window.onload = function () {
+  document.body.classList.remove('is-preload');
+};

@@ -1,1 +1,102 @@
-/* 기본 스타일을 여기에 추가하세요 */
+/* main.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background: #fff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  background: #004d99;
+  color: #fff;
+  padding: 2em 0;
+  text-align: center;
+}
+
+#header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.button.primary {
+  background: #ff6600;
+  color: #fff;
+  padding: 0.75em 2em;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.button.primary:hover {
+  background: #e65500;
+}
+
+.fields {
+  max-width: 600px;
+  margin: 1em auto;
+}
+
+.field {
+  margin-bottom: 1em;
+}
+
+.field label {
+  display: block;
+  margin-bottom: 0.3em;
+  font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 0.6em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+
+textarea {
+  resize: vertical;
+}
+
+ul.actions {
+  list-style: none;
+  padding: 0;
+  margin: 1em 0;
+  text-align: center;
+}
+
+ul.actions li {
+  display: inline-block;
+}
+
+ul.actions li input.primary {
+  font-size: 1.1em;
+}
+
+#footer {
+  background: #004d99;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  margin-top: 2em;
+}
+
+#main .inner {
+  padding: 1em 2em;
+}
+
+section header.major h2 {
+  font-size: 1.8em;
+  margin-bottom: 0.5em;
+}
+
+section p {
+  max-width: 600px;
+  margin: 0 auto 1em auto;
+  font-size: 1em;
+}

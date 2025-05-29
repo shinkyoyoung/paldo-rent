@@ -1,1 +1,4 @@
-/* JS가 꺼진 경우 대체 스타일 */
+/* noscript.css */
+body.is-preload {
+  overflow: hidden;
+}
